@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+.change-btn {
+    background-color: #000;
+    border: 0;
+    color:#fff;
+    font-size: 20px;
+    padding: 15px 30px;
+}
+.color-text{
+    font-size: 16px;
+}
