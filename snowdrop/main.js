@@ -1,4 +1,4 @@
-setInterval(createSnowFlake, 100)
+setInterval(createSnowFlake, 50)
 function createSnowFlake(){
     const snow_flake = document.createElement("i");
     snow_flake.classList.add('fas');
@@ -11,5 +11,5 @@ function createSnowFlake(){
 
     setTimeout(()=>{
         snow_flake.remove();
-    },5000)
+    },1990)
 }
